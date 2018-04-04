@@ -1,3 +1,4 @@
+#include "BasicTerm.h"
 #include <termios.h>
 
 // It's var for saving current setting of terminal
