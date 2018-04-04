@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Proxi.h"
+#include "Proxy.h"
 
 class Input {
 protected:
@@ -7,5 +7,5 @@ protected:
 	ostream& out;
 public:
 	virtual ~Input();
-	virtual Proxi Run(const std::string&) = 0;
+	virtual Proxy Run(const std::string&) = 0;
 };
